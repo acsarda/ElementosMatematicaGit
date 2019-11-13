@@ -1,0 +1,15 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {\textup {1}}OBJETIVO}{1}{section.1}
+\contentsline {section}{\numberline {\textup {2}}ALCANCE}{1}{section.2}
+\contentsline {section}{\numberline {\textup {3}}REFERENCIAS}{3}{section.3}
+\contentsline {section}{\numberline {\textup {4}}MEMORIA DESCRIPTIVA}{4}{section.4}
+\contentsline {section}{\numberline {\textup {5}}Memoria t\IeC {\'e}cnica}{7}{section.5}
+\contentsline {subsection}{\numberline {\textup {\textup {5}.1}}Medici\IeC {\'o}n de los bobinados}{7}{subsection.5.1}
+\contentsline {subsection}{\numberline {\textup {\textup {5}.2}}Factibilidad de uso del motor de CC}{8}{subsection.5.2}
+\contentsline {subsection}{\numberline {\textup {\textup {5}.3}}Acople entre el motor y el generador}{8}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {\textup {\textup {\textup {5}.3}.1}}Banco de ensayos}{8}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {\textup {\textup {\textup {5}.3}.2}}Conexi\IeC {\'o}n del variador de frecuencia al motor}{9}{subsubsection.5.3.2}
+\contentsline {subsection}{\numberline {\textup {\textup {5}.4}}Ensayos en vac\IeC {\'\i }o}{10}{subsection.5.4}
+\contentsline {subsection}{\numberline {\textup {\textup {5}.5}}Ensayos en carga}{12}{subsection.5.5}
+\contentsline {subsection}{\numberline {\textup {\textup {5}.6}}Ensayo en cortocircuito}{16}{subsection.5.6}
+\contentsline {section}{\numberline {\textup {6}}Conclusiones}{17}{section.6}
