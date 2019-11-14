@@ -30,7 +30,7 @@
 %\alcance{}
 
 % Numero de informe tecnico
-\numeroIT{TP Nº0}
+\numeroIT{TP Nº1}
 % Metadatos para pdf
 \hypersetup{
     pdfauthor={Augusto Conrado Sardá},
@@ -52,7 +52,8 @@
     % Comienzo del desarrollo del documento
     \printnomenclature[2cm]
 
-\newpage  
+\clearpage  
+\newpage
 \section{INTRODUCCIÓN}
 Los sistemas de navegación inerciales son capaces de proveer la posición, velocidad y actitud con
 gran exactitud sobre cortos períodos de tiempo. Sin embargo, esta exactitud se degrada a medida que el
@@ -63,8 +64,9 @@ representar el valor cuadrático medio (RMS) del error en función del tiempo pr
 AV presenta la ventaja que es simple de calcular y analizar. Realizando operaciones sencillas a lo largo
 de un conjunto de datos de la lectura de un sensor inercial, se obtiene una curva que permite caracterizar varios
 errores aleatorios característicos de este tipo de sensores.
+\clearpage
+\newpage
 \section{ALLAN VARIANCE}
-
 Supóngase que se tienen $N$ valores de la lectura de velocidad angular $\Omega$ de un sensor inercial que fueron muestreados con un período de muestreo $t_0$. A partir de este conjunto de datos, se forman subconjuntos de $n$ elementos (con $n<N/2$). El tiempo asociado a cada subconjunto es $T=nt_0$. El promedio $\bar{\Omega}$ es
 \begin{equation}
 \bar{\Omega}_k(T)=\frac{1}{T}\int_{t_k}^{t_k+T}\Omega(t)dt
@@ -129,8 +131,7 @@ log\left[ \sigma(T)\right]=log\left( \sqrt{3}\right)+log\left( Q_z\right)-log(T)
 Es decir, en un gráfico en escala log-log de $\sigma(T)$ vs. $T$, el ruido de quantization noise está representado por una recta de pendiente de $-1$. Construyendo la gráfica a partir de lecturas de un sensor, se puede conocer el valor de $Q_z$ en $T=\sqrt{3}$.	
 \subsection{ANGLE RANDOM WALK}
 Las componentes de ruido de alta frecuencia que tienen un tiempo de correlación menor que el
-período de muestreo pueden contribuir al angle random walk (ARW) del giróscopo o acelerómetro. Estas com-
-ponentes de ruido se caracterizan como ruido blanco en la medición de velocidad angular (o aceleración
+período de muestreo pueden contribuir al angle random walk (ARW) del giróscopo o acelerómetro. Estas componentes de ruido se caracterizan como ruido blanco en la medición de velocidad angular (o aceleración
 del acelerómetro). Su PSD es
 \begin{equation}
 S_{\Omega}=Q^2
@@ -205,6 +206,8 @@ Drift rate ramp&$R$&$deg/hs^2$ \\ \hline
 %&&&&&& \\ \hline
 \end{tabular}
 \end{table}
+\clearpage
+\newpage
 \section{SIMULADOR DE ALLAN VARIANCE}
 Conociendo las PSD de cada una de las componentes de ruido involucradas en un sensor incercial, es posible crear señales aleatorias que se correspondan a cada PSD. A partir de estas y haciendo uso de la Ec.(\ref{ec:AVVelAngular}) o Ec.(\ref{ec:AVPosAngular}) se calcula $\sigma(T)$ y se pueden construir las gráficas en escala log-log de $\sigma(T)$ vs. $T$. Por lo tanto, es factible realizar simulaciones de los distintos ruidos y conocer su AV (o más apropiadamente, ``\textit{Allan desviation}'').
 \par Para realizar las simulaciones se utilizó como guía \cite{JuanJurado}. En la tabla Nº\ref{tabla:valoresCoeficientes} se muestran los valores utilizados para los coeficientes. También, en cada figura se muestra la gráfica de AV junto a su correspondiente PSD. Conocer el comportamiento en frecuencia de la señal permite inferir que pendientes serían capaces de observarse en el gráfico de AV. 
@@ -339,6 +342,72 @@ Drift rate ramp&$R$&$5\,deg/hs^2$ \\ \hline
 \end{figure}
 \par En la Fig. Nº\ref{fig:simulacionRuidosTodos} se muestra el aporte de todas las componentes; es decir, la suma de todos los ruidos anteriormente simulados. En la Fig. Nº\ref{fig:simulacionRuidosTodosRectas} se añadieron las rectas con las pendientes características más cercanas a los valores teóricos. Para esto, se calculó cada pendiente entre dos puntos consecutivos. 
 \par Las simulaciones de cada una de las componentes permiten verificar lo que predice cada uno de los resultados teóricos. Para cada uno de los valores de $T$ correspondientes se puede verificar el valor del coeficiente utilizado (como así también la relación indicada para el caso de bias instability). Sin embargo, al tratar con todas las componentes en simultáneo se nota como algunas acaban predominando más que otras. Por ello es útil observar la PSD. En la PSD de la Fig. Nº\ref{fig:simulacionRuidosTodos} se aprecia que los ruidos mejor distinguibles son del tipo drift rate rap, angle random walk y quantization noise. La Fig. Nº\ref{fig:simulacionRuidosTodosRectas} expone este resultado con una mejor mayor aproximación  a lo largo del tiempo promedio $T$ de las rectas características, principalmente para ``el'' quantization noise y ``el'' drift rate ramp.
+\par Las hojas de datos de los giróscopos proporcionan los valores de algunos de los coeficientes de ruido. De los cinco coeficientes que se han mostrado, es difícil en la práctica poder determinarlos a todos, y por ello los fabricantes sólo especifican algunos.
+\\ Se cuenta con la hoja de datos de dos giróscopos de distintas tecnologías: MEMS y Ring Laser Gyro (RLG). De acuerdo a estas, se tiene que:
+\begin{itemize}
+\item MEMS
+\begin{itemize}
+\item Bias instability $18\,deg/hs$.
+\item Noise density $0.03\,deg/\left( seg\sqrt{Hz}\right)$. (Se utiliza este valor para el coeficiente de angle random walk).
+\end{itemize}
+\item RLG
+\begin{itemize}
+\item Angle random walk no debe exceder $0.015\,deg/\sqrt{hs}$.
+\item Quantization noise $1.62\,rad=92.82\,deg$
+\end{itemize}
+\end{itemize}
+En las Figs. Nº\ref{fig:simulacionMEMs} y Nº\ref{fig:simulacionMEMsRectas} se observa como predomina el coeficiente de bias instability sobre angle random walk. De hecho, en la Fig. Nº\ref{fig:simulacionMEMsRectas} la recta con pendiente $-1/2$ se situó en una región que carece de sentido. Para obtener el coeficiente ARW se debe hacer el cálculo sobre alguno de los puntos a la izquierda de la región plana. 
+\\ En las Figs. Nº\ref{fig:simulacionRLG} y Nº\ref{fig:simulacionRLGRectas} también se observa como el coeficiente de quantization noise predomina sobre ARW, a tal punto que en los gráficos de Allan deviation no se aprecian puntos correspondientes a una pendiente de $-1/2$. En ambos casos, al ser un coeficiente mucho mayor que el otro, el primero predominará en la gráfica de Allan.
+\begin{figure*}[t!]
+    \centering
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=8cm]{Figuras/PSDMEMS.png}
+        \caption{PSD}
+        \label{fig:}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=8cm]{Figuras/AllanMEMS.png}
+        \caption{Allan desviation}
+        \label{fig:}
+    \end{subfigure}%
+    ~ 
+    \caption{Simulación del sensor de tecnología MEMS}
+    \label{fig:simulacionMEMs}
+\end{figure*}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=8cm]{Figuras/AllanMEMSRectas.png}
+\caption{Simulación del sensor de tecnología MEMS - Allan deviation con rectas}
+\label{fig:simulacionMEMsRectas}
+\end{figure}
+\begin{figure*}[t!]
+    \centering
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=8cm]{Figuras/PSDRLG.png}
+        \caption{PSD}
+        \label{fig:}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=8cm]{Figuras/AllanRLG.png}
+        \caption{Allan desviation}
+        \label{fig:}
+    \end{subfigure}%
+    ~ 
+    \caption{Simulación del sensor de tecnología RLG}
+    \label{fig:simulacionRLG}
+\end{figure*}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=8cm]{Figuras/AllanRLGRectas.png}
+\caption{Simulación del sensor de tecnología RLG - Allan deviation con rectas}
+\label{fig:simulacionRLGRectas}
+\end{figure}
+\clearpage
+\newpage
 \section{ANÁLISIS DE DATOS DE UN GIRÓSCOPO}
 Se cuenta con lecturas del giróscopo I3DM-GX3-35 de tecnología MEMS. Estas lecturas se realizaron con el dispositivo adquiriendo datos en reposo; es decir, sin movimiento. Se asume que los datos se encuentran en unidades de $rad/s$. Dado que el código construido se concibió para operar en $deg/s$, los datos se multiplican por un factor de $180/\pi$.
 \\En las figuras Nº\ref{fig:lecturasEjex}, Nº\ref{fig:lecturasEjey} y Nº\ref{fig:lecturasEjez} se muestran las PSD y ``el'' Allan desviation para las lecturas de cada eje (\textit{x}, \textit{y} y \textit{z}) y en las figuras Nº\ref{fig:lecturaEjexRectas}, Nº\ref{fig:lecturaEjeyRectas} y Nº\ref{fig:lecturaEjezRectas} se muestra el Allan desviation junto con las rectas características. 
@@ -433,7 +502,10 @@ Bias instability&$B$&$30.75\,deg/hs$ &$23.34\,deg/hs$ &$18.81\,deg/hs$\\ \hline
 \end{table}
 %q
 %Q
+\clearpage
+\newpage
 \section{CONCLUSIONES}
+\clearpage
 \newpage
 \bibliographystyle{asmems4}
 \bibliography{biblio}

@@ -83,11 +83,11 @@
 %\renewcommand{\rmdefault}{phv}
 %\renewcommand{\sfdefault}{phv}
 %\usepackage{courier}
-\renewcommand{\ttdefault}{pcr}
+%\renewcommand{\ttdefault}{pcr}
 % \usepackage{helvet}
 % \renewcommand{\familydefault}{\sfdefault}
-\usepackage{sansmath} % Enables turning on sans-serif math mode, and using other environments
-\sansmath % Enable sans-serif math for rest of document
+%\usepackage{sansmath} % Enables turning on sans-serif math mode, and using other environments
+%\sansmath % Enable sans-serif math for rest of document
 
 % Definicion de las macros objetivo, alcance, revisores, etc
 \newcommand*{\numeroIT}[1]{\gdef\@numeroIT{#1}}

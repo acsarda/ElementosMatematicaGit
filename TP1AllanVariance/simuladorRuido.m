@@ -23,7 +23,7 @@ qNoiseDot=diff(qNoise)/Ts;
 ARWSigma=ARWSigma/(60*sqrt(Ts));
 ARWNoiseDot=ARWSigma*randn(N,1);
 %% Bias instability (BI)
-% BISigma=.1;%[deg/h]
+% BISigma=.1;%[deg/hs]
 BISigma=BISigma/3600;
 pink=dsp.ColoredNoise('Color','pink','SamplesPerFrame',N);
 BINoiseDot=pink()*BISigma;

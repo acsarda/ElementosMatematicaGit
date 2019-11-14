@@ -1,14 +1,14 @@
-\select@language {spanish}
+\babel@toc {spanish}{}
 \contentsline {section}{\numberline {\textup {1}}INTRODUCCI\IeC {\'O}N}{2}{section.1}
-\contentsline {section}{\numberline {\textup {2}}ALLAN VARIANCE}{2}{section.2}
-\contentsline {subsection}{\numberline {\textup {\textup {2}.1}}REPRESENTACI\IeC {\'O}N DE T\IeC {\'E}RMINOS DE RUIDOS EN ALLAN VARIANCE}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {\textup {\textup {2}.2}}QUANTIZATION NOISE}{3}{subsection.2.2}
-\contentsline {subsection}{\numberline {\textup {\textup {2}.3}}ANGLE RANDOM WALK}{4}{subsection.2.3}
-\contentsline {subsection}{\numberline {\textup {\textup {2}.4}}BIAS INSTABILITY}{4}{subsection.2.4}
+\contentsline {section}{\numberline {\textup {2}}ALLAN VARIANCE}{3}{section.2}
+\contentsline {subsection}{\numberline {\textup {\textup {2}.1}}REPRESENTACI\IeC {\'O}N DE T\IeC {\'E}RMINOS DE RUIDOS EN ALLAN VARIANCE}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {\textup {\textup {2}.2}}QUANTIZATION NOISE}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {\textup {\textup {2}.3}}ANGLE RANDOM WALK}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {\textup {\textup {2}.4}}BIAS INSTABILITY}{5}{subsection.2.4}
 \contentsline {subsection}{\numberline {\textup {\textup {2}.5}}RATE RANDOM WALK}{5}{subsection.2.5}
-\contentsline {subsection}{\numberline {\textup {\textup {2}.6}}DRIFT RATE RAMP}{5}{subsection.2.6}
-\contentsline {subsection}{\numberline {\textup {\textup {2}.7}}UNIDADES}{5}{subsection.2.7}
-\contentsline {section}{\numberline {\textup {3}}SIMULADOR DE ALLAN VARIANCE}{6}{section.3}
-\contentsline {section}{\numberline {\textup {4}}AN\IeC {\'A}LISIS DE DATOS DE UN GIR\IeC {\'O}SCOPO}{8}{section.4}
-\contentsline {section}{\numberline {\textup {5}}CONCLUSIONES}{9}{section.5}
-\contentsline {section}{\numberline {\textup {6}}REFERENCIAS}{11}{section.6}
+\contentsline {subsection}{\numberline {\textup {\textup {2}.6}}DRIFT RATE RAMP}{6}{subsection.2.6}
+\contentsline {subsection}{\numberline {\textup {\textup {2}.7}}UNIDADES}{6}{subsection.2.7}
+\contentsline {section}{\numberline {\textup {3}}SIMULADOR DE ALLAN VARIANCE}{7}{section.3}
+\contentsline {section}{\numberline {\textup {4}}AN\IeC {\'A}LISIS DE DATOS DE UN GIR\IeC {\'O}SCOPO}{11}{section.4}
+\contentsline {section}{\numberline {\textup {5}}CONCLUSIONES}{14}{section.5}
+\contentsline {section}{\numberline {\textup {6}}REFERENCIAS}{15}{section.6}
