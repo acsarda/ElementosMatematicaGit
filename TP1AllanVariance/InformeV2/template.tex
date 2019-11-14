@@ -84,21 +84,21 @@ Otra manera de calcular Allan variance es utilizar la posición angular en lugar
 \begin{equation}
 \theta(t)=\int^t\Omega(\xi)d\xi
 \end{equation}
-donde $\xi$ es una variable de integración. El límite inferior de la integrl no se especifica ya que se utilizan las diferencias de velocidad angular. Las Ec.(\ref{ec:velAngPromk}) y Ec.(\ref{ec:velAngPromSig}) resultan ahora
+donde $\xi$ es una variable de integración. El límite inferior de la integral no se especifica ya que se utilizan las diferencias de velocidad angular. Las Ec.(\ref{ec:velAngPromk}) y Ec.(\ref{ec:velAngPromSig}) resultan ahora
 \begin{equation}
 \bar{\Omega}_{k}(T)=\frac{\theta_{k+n}-\theta_k}{T}
 \end{equation}
 \begin{equation}
-\bar{\Omega}_{next}(T)=\frac{\theta_/{k+2n}-\theta_{k+n}}{T}
+\bar{\Omega}_{next}(T)=\frac{\theta_{k+2n}-\theta_{k+n}}{T}
 \end{equation}
 Reemplazando en la Ec.(\ref{ec:AVVelAngular})
 \begin{equation}
-\sigma^2(T)=\frac{1}{2T^2\left( N-2n\right)}\sum_{k=1}^{N-2n}\left[ \theta_{k+2n}-2\theta{k+n}+\theta_k \right]^2
+\sigma^2(T)=\frac{1}{2T^2\left( N-2n\right)}\sum_{k=1}^{N-2n}\left[ \theta_{k+2n}-2\theta_{k+n}+\theta_k \right]^2
 \label{ec:AVPosAngular}
 \end{equation}
-\par En los sensores inerciales se conoce cuales son algunas de las fuentes características de ruido. Los cinco más básicos son: quantization noise, angle random walk, bias instability, rate random walk y drift rate ramp\footnote{No se los traduce al español por la costumbre de emplear estos términos en inglés}. Cada una de estas componentes de ruido está caracteriza por su función de densidad espectral (PSD) $S_{\Omega}(f)$. La relación de esta con $\sigma^2(T)$  es
+\par En los sensores inerciales se conoce cuales son algunas de las fuentes características de ruido. Los cinco más básicos son: quantization noise, angle random walk, bias instability, rate random walk y drift rate ramp\footnote{No se los traduce al español por la costumbre de emplear estos términos en inglés}. Cada una de estas componentes de ruido está caracteriza por su función de densidad espectral de frecuencia (PSD) $S_{\Omega}(f)$. La relación de esta con $\sigma^2(T)$  es
 \begin{equation}
-\sigma^2(T)=4\int_0^{\infty}S_{\Omega}(f)\frac{\sin^4(\pi fT)}{\left( \pi fT\right)^2}
+\sigma^2(T)=4\int_0^{\infty}S_{\Omega}(f)\frac{\sin^4(\pi fT)}{\left( \pi fT\right)^2}df
 \label{ec:relacionPSDAV}
 \end{equation}
 Las hipótesis requeridas sobre la Ec.(\ref{ec:relacionPSDAV}) es que el proceso aleatorio $\Omega(t)$ sea estacionario. Esto implica que la función de autocorrelación $\Omega(t)$ no depende del tiempo y que sea par.
@@ -129,8 +129,7 @@ log\left[ \sigma(T)\right]=log\left( \sqrt{3}\right)+log\left( Q_z\right)-log(T)
 Es decir, en un gráfico en escala log-log de $\sigma(T)$ vs. $T$, el ruido de quantization noise está representado por una recta de pendiente de $-1$. Construyendo la gráfica a partir de lecturas de un sensor, se puede conocer el valor de $Q_z$ en $T=\sqrt{3}$.	
 \subsection{ANGLE RANDOM WALK}
 Las componentes de ruido de alta frecuencia que tienen un tiempo de correlación menor que el
-período de muestreo pueden contribuir al angle random walk (ARW) del giróscopo o acelerómetro. Estas com-
-ponentes de ruido se caracterizan como ruido blanco en la medición de velocidad angular (o aceleración
+período de muestreo pueden contribuir al angle random walk (ARW) del giróscopo o acelerómetro. Estas componentes de ruido se caracterizan como ruido blanco en la medición de velocidad angular (o aceleración
 del acelerómetro). Su PSD es
 \begin{equation}
 S_{\Omega}=Q^2
@@ -158,14 +157,14 @@ donde $B$ es el coeficiente de bias instability y $f_0$ es la frecuencia de cort
 \sigma^2(T)=\frac{2B^2}{\pi}\left[ ln(2)-\frac{\sin^3(x)}{2x^2}\left( \sin(x)+4x\cos(x)+C_i(x)-C_i(4x)\right)\right]
 \label{ec:AVBI}
 \end{equation}
-donde $x=\pi fT$ y $C_i$ es la función integral del coseno. La gráfica en escala log-log correspondiente a la Ec.(\ref{ec:AVBI}) alcanza una región plana (pendiente nula) que marca el límite de del BI. En esta región la relación entre $\sigma(T)$ y $B$ es: $\sigma=0.664B$. Por lo tanto, construyendo la gráfica a partir de datos sensados se puede conocer $B$.
+donde $x=\pi fT$ y $C_i$ es la función integral del coseno. La gráfica en escala log-log correspondiente a la Ec.(\ref{ec:AVBI}) alcanza una región plana (pendiente nula) que marca el límite del BI. En esta región la relación entre $\sigma(T)$ y $B$ es: $\sigma=0.664B$. Por lo tanto, construyendo la gráfica a partir de datos sensados se puede conocer $B$.
 \subsection{RATE RANDOM WALK}
 Este es un proceso aleatorio de origen desconocido, posiblemente un caso límite de un ruido correlacionado exponencialmente con un tiempo de correlación demasiado largo. La PSD asociada es
 \begin{equation}
 S_{\Omega}=\left( \frac{K}{2\pi}\right)^2\frac{1}{f^2}
 \label{ec:PSDRRW}
 \end{equation}
-donde $K$ es el coeficiente del rate random walk (RRW). Reemplazando Ec.(\ref{ec:PSDRRW}) en Ec(\ref{ec:relacionPSDAV}) y resolviendo la integral:
+donde $K$ es el coeficiente del rate random walk (RRW). Reemplazando Ec.(\ref{ec:PSDRRW}) en Ec.(\ref{ec:relacionPSDAV}) y resolviendo la integral:
 \begin{equation}
 \sigma^2(T)=\frac{K^2T}{3}
 \end{equation}
@@ -338,7 +337,7 @@ Drift rate ramp&$R$&$5\,deg/hs^2$ \\ \hline
 \label{fig:simulacionRuidosTodosRectas}
 \end{figure}
 \par En la Fig. Nº\ref{fig:simulacionRuidosTodos} se muestra el aporte de todas las componentes; es decir, la suma de todos los ruidos anteriormente simulados. En la Fig. Nº\ref{fig:simulacionRuidosTodosRectas} se añadieron las rectas con las pendientes características más cercanas a los valores teóricos. Para esto, se calculó cada pendiente entre dos puntos consecutivos. 
-\par Las simulaciones de cada una de las componentes permiten verificar lo que predice cada uno de los resultados teóricos. Para cada uno de los valores de $T$ correspondientes se puede verificar el valor del coeficiente utilizado (como así también la relación indicada para el caso de bias instability). Sin embargo, al tratar con todas las componentes en simultáneo se nota como algunas acaban predominando más que otras. Por ello es útil observar la PSD. En la PSD de la Fig. Nº\ref{fig:simulacionRuidosTodos} se aprecia que los ruidos mejor distinguibles son del tipo drift rate rap, angle random walk y quantization noise. La Fig. Nº\ref{fig:simulacionRuidosTodosRectas} expone este resultado con una mejor mayor aproximación  a lo largo del tiempo promedio $T$ de las rectas características, principalmente para ``el'' quantization noise y ``el'' drift rate ramp.
+\par Las simulaciones de cada una de las componentes permiten verificar lo que predice cada uno de los resultados teóricos. Se puede verificar el valor del coeficiente utilizado para cada uno de los valores de $T$ correspondientes  (como así también la relación indicada para el caso de bias instability). Sin embargo, al tratar con todas las componentes en simultáneo se nota como algunas acaban predominando más que otras. Por ello es útil observar la PSD. En la PSD de la Fig. Nº\ref{fig:simulacionRuidosTodos} se aprecia que los ruidos mejor distinguibles son del tipo drift rate rap, angle random walk y quantization noise. La Fig. Nº\ref{fig:simulacionRuidosTodosRectas} expone este resultado con una mejor mayor aproximación  a lo largo del tiempo promedio $T$ de las rectas características, principalmente para ``el'' quantization noise y ``el'' drift rate ramp.
 \section{ANÁLISIS DE DATOS DE UN GIRÓSCOPO}
 Se cuenta con lecturas del giróscopo I3DM-GX3-35 de tecnología MEMS. Estas lecturas se realizaron con el dispositivo adquiriendo datos en reposo; es decir, sin movimiento. Se asume que los datos se encuentran en unidades de $rad/s$. Dado que el código construido se concibió para operar en $deg/s$, los datos se multiplican por un factor de $180/\pi$.
 \\En las figuras Nº\ref{fig:lecturasEjex}, Nº\ref{fig:lecturasEjey} y Nº\ref{fig:lecturasEjez} se muestran las PSD y ``el'' Allan desviation para las lecturas de cada eje (\textit{x}, \textit{y} y \textit{z}) y en las figuras Nº\ref{fig:lecturaEjexRectas}, Nº\ref{fig:lecturaEjeyRectas} y Nº\ref{fig:lecturaEjezRectas} se muestra el Allan desviation junto con las rectas características. 
@@ -425,9 +424,9 @@ Se cuenta con lecturas del giróscopo I3DM-GX3-35 de tecnología MEMS. Estas lec
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 Tipo de ruido&Coeficiente& Eje x & Eje y & Eje z \\ \hline
-Quantization noise&$Q_z$&$0.7528\,deg$&-&- \\ \hline
-Angle random walk&$Q$&$1.4\,deg/\sqrt{hs}$& & \\ \hline
-Bias instability&$B$&$30.75\,deg/hs$ &$23.34\,deg/hs$ &$18.81\,deg/hs$\\ \hline
+Quantization noise $\left[ deg\right]$&$Q_z$&$0.7528$&-&- \\ \hline
+Angle random walk $\left[ deg/\sqrt{hs}\right]$&$Q$&$1.4$&-&-\\ \hline
+Bias instability $\left[ deg/hs \right]$&$B$&$30.75$ &$23.34$ &$18.81$\\ \hline
 %&&&&&& \\ \hline
 \end{tabular}
 \end{table}
