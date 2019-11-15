@@ -9,6 +9,6 @@
 \contentsline {subsection}{\numberline {\textup {\textup {2}.6}}DRIFT RATE RAMP}{6}{subsection.2.6}
 \contentsline {subsection}{\numberline {\textup {\textup {2}.7}}UNIDADES}{6}{subsection.2.7}
 \contentsline {section}{\numberline {\textup {3}}SIMULADOR DE ALLAN VARIANCE}{7}{section.3}
-\contentsline {section}{\numberline {\textup {4}}AN\IeC {\'A}LISIS DE DATOS DE UN GIR\IeC {\'O}SCOPO}{11}{section.4}
-\contentsline {section}{\numberline {\textup {5}}CONCLUSIONES}{14}{section.5}
-\contentsline {section}{\numberline {\textup {6}}REFERENCIAS}{15}{section.6}
+\contentsline {section}{\numberline {\textup {4}}AN\IeC {\'A}LISIS DE DATOS DE UN GIR\IeC {\'O}SCOPO}{12}{section.4}
+\contentsline {section}{\numberline {\textup {5}}CONCLUSIONES}{15}{section.5}
+\contentsline {section}{\numberline {\textup {6}}REFERENCIAS}{16}{section.6}
