@@ -34,7 +34,7 @@
 % Metadatos para pdf
 \hypersetup{
     pdfauthor={Augusto Conrado Sardá},
-    pdftitle={Propagación de ruido en sistema LTI},
+    pdftitle={AllanVariance},
     pdfkeywords={},
     pdfcreator={},
     pdfsubject={}    
@@ -356,8 +356,9 @@ Drift rate ramp&$R$&$5\,deg/hs^2$ \\ \hline
 \item Quantization noise $1.62\,rad=92.82\,deg$
 \end{itemize}
 \end{itemize}
-En las Figs. Nº\ref{fig:simulacionMEMs} y Nº\ref{fig:simulacionMEMsRectas} se observa como predomina el coeficiente de bias instability sobre angle random walk. De hecho, en la Fig. Nº\ref{fig:simulacionMEMsRectas} la recta con pendiente $-1/2$ se situó en una región que carece de sentido. Para obtener el coeficiente ARW se debe hacer el cálculo sobre alguno de los puntos a la izquierda de la región plana. 
-\\ En las Figs. Nº\ref{fig:simulacionRLG} y Nº\ref{fig:simulacionRLGRectas} también se observa como el coeficiente de quantization noise predomina sobre ARW, a tal punto que en los gráficos de Allan deviation no se aprecian puntos correspondientes a una pendiente de $-1/2$. En ambos casos, al ser un coeficiente mucho mayor que el otro, el primero predominará en la gráfica de Allan.
+En las Figs. Nº\ref{fig:simulacionMEMs} y Nº\ref{fig:simulacionMEMsRectas} correspondientes al sensor MEMS, se observa como predomina el coeficiente de bias instability sobre angle random walk. De hecho, en la Fig. Nº\ref{fig:simulacionMEMsRectas} la recta con pendiente $-1/2$ se situó en una región que carece de sentido. Para obtener el coeficiente ARW se debe hacer el cálculo sobre alguno de los puntos a la izquierda de la región plana. 
+\\ En las Figs. Nº\ref{fig:simulacionRLG} y Nº\ref{fig:simulacionRLGRectas} del sensor RLG, también se observa como el coeficiente de quantization noise predomina sobre ARW, a tal punto que en los gráficos de Allan deviation no se aprecian puntos correspondientes a una pendiente de $-1/2$. 
+\\ En las simulaciones de ambas tecnologías, al ser un coeficiente mucho mayor que el otro, el mayor predominará en la gráfica de Allan.
 \begin{figure*}[t!]
     \centering
     \begin{subfigure}[t]{0.5\textwidth}
@@ -412,7 +413,7 @@ En las Figs. Nº\ref{fig:simulacionMEMs} y Nº\ref{fig:simulacionMEMsRectas} se 
 Se cuenta con lecturas del giróscopo I3DM-GX3-35 de tecnología MEMS. Estas lecturas se realizaron con el dispositivo adquiriendo datos en reposo; es decir, sin movimiento. Se asume que los datos se encuentran en unidades de $rad/s$. Dado que el código construido se concibió para operar en $deg/s$, los datos se multiplican por un factor de $180/\pi$.
 \\En las figuras Nº\ref{fig:lecturasEjex}, Nº\ref{fig:lecturasEjey} y Nº\ref{fig:lecturasEjez} se muestran las PSD y ``el'' Allan desviation para las lecturas de cada eje (\textit{x}, \textit{y} y \textit{z}) y en las figuras Nº\ref{fig:lecturaEjexRectas}, Nº\ref{fig:lecturaEjeyRectas} y Nº\ref{fig:lecturaEjezRectas} se muestra el Allan desviation junto con las rectas características. 
 \\ De acuerdo a las gráficas de PSD, las componentes que mejor se exhiben son principalmente angle random walk y en menor medida, bias instability. Claramente esto se verifica en cada uno de los gráficos de Allan desviation. En las figuras donde se añaden las rectas, se aprecia como las rectas con pendientes cercanas a $-1/2$ y $0$ se \textit{unen} a los puntos del gráfico en las regiones que son de esperar, mientras que para las restantes pendientes las rectas se adhieren a puntos que carecen de sentido. 
-\\ De las figuras Nº\ref{fig:lecturaEjexRectas}, Nº\ref{fig:lecturaEjeyRectas} y Nº\ref{fig:lecturaEjezRectas} se puede inferir el valor de algunos de los coeficientes de las componentes que se distinguen; es decir, $Q$ y $B$ para los tres ejes, y $Q_z$ solo para el eje x. Los valores inferidos se muestran en la tabla Nº\ref{tabla:valoresCoeficientesEjes}.
+\\ De las figuras Nº\ref{fig:lecturaEjexRectas}, Nº\ref{fig:lecturaEjeyRectas} y Nº\ref{fig:lecturaEjezRectas} se puede inferir el valor de algunos de los coeficientes de las componentes que se distinguen; es decir, $Q$ y $B$ para los tres ejes, y $Q_z$ sólo para el eje x. Los valores inferidos se muestran en la tabla Nº\ref{tabla:valoresCoeficientesEjes}.
 %q
 %Q
 \begin{figure*}[t!]
@@ -494,17 +495,25 @@ Se cuenta con lecturas del giróscopo I3DM-GX3-35 de tecnología MEMS. Estas lec
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 Tipo de ruido&Coeficiente& Eje x & Eje y & Eje z \\ \hline
-Quantization noise $\left[ deg\right]$&$Q_z$&$0.7528$&-&- \\ \hline
-Angle random walk $\left[ deg/\sqrt{hs}\right]$&$Q$&$1.4$&-&-\\ \hline
+Quantization noise $\left[ deg\right]$&$Q_z$&$0.7528$&-&-\\ \hline
+Angle random walk $\left[ deg/\sqrt{hs}\right]$&$Q$&$1.4$&$1.17$&$1.33$\\ \hline
 Bias instability $\left[ deg/hs \right]$&$B$&$30.75$ &$23.34$ &$18.81$\\ \hline
 %&&&&&& \\ \hline
 \end{tabular}
 \end{table}
-%q
-%Q
+De tabla Nº\ref{tabla:valoresCoeficientesEjes} se puede concluir que el valor asumido para el coeficiente $Q$ de ARW es completamente erróneo. De hecho, los valores obtenidos para este coeficiente discrepan como máximo $8.5\%$ de su media. Por lo tanto, es admisible considerar que $Q=1.3,deg/\sqrt{hs.}$. En cuanto a $B$, los errores respecto del valor de la hoja de datos ($18\,deg/hs$) son $70.8\%$, $29.7\%$ y $4.5\%$ para los ejes $x$, $y$ y $z$ respectivamente.  
 \clearpage
 \newpage
 \section{CONCLUSIONES}
+La construcción del simulador fue posible gracias a utilizar como guía \cite{JuanJurado}. En primera instancia se intentó realizar tanto las simulaciones de los distintos tipos de ruidos como el calculo de $\sigma(T)$ por cuenta propia pero con un éxito parcial. Seguir a \cite{JuanJurado} fue principalmente provechoso en la generación de los distintos tipos de ruidos. Este genera los distintos tipos de ruido mediante código .m, mientras que intentar generarlos en Simulink mediante el bloque ``Colored noise'' resultó engorroso y sin éxito. 
+\\ Además de la generación de ruido, el calculo de $\sigma(T)$ reveló detalles que marcaban la diferencia del éxito del código. Por ejemplo, en el código propio original, el vector $T$ se creaba linealmente espaciado, mientras que \cite{JuanJurado} lo hacía logaritmicamente espaciado. Esta sútil diferencia todavía resulta una incógnita. 
+\\ Una vez creado el simulador de acuerdo con \cite{JuanJurado}, se comprobó que los valores establecidos para cada coeficiente eran corroborados en el gráfico de $\sigma(T)$ vs. $T$ en escala logarítmica. Por lo tanto, en este sentido se puede concluir que el simulador funciona satisfactoriamente. 
+\par Para realizar conclusiones respecto de las simulaciones a partir de datos extraídos de hojas de datos y del análisis de datos reales, se debe comenzar por este último. La gráfica de $\sigma(T)$ vs. $T$ generada a partir de lecturas del sensor revela que no es posible obtener todos los coeficientes. Por lo tanto, es entendible que las hojas de datos sólo especifiquen algunos de ellos. 
+\\ Otro factor relevante es que no existe una estandarización de los fabricantes respecto a la representación de la información de los sensores. Esto, sumado a la inexperiencia en el tópico, dificulta la interpretación de las hojas de datos. Sin ir más lejos, haber adoptado el valor de $0.03$ para el coeficiente de angle random walk fue un error. 
+\par La realización de este trabajo significa beneficiosa puesto que es común encontrarse con giróscopos o acelerómetros cuando se desea conocer la ubicación y/o orientación de cierto vehículo o dispositivo con el fin de controlarlos. Si bien lo desarrollado dista para convertirse en un virtuoso del tema, si resulta dar los primeros pasos firmes. 
+%Q
+%q
+%Q
 \clearpage
 \newpage
 \bibliographystyle{asmems4}

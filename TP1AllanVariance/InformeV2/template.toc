@@ -1,4 +1,4 @@
-\babel@toc {spanish}{}
+\select@language {spanish}
 \contentsline {section}{\numberline {\textup {1}}INTRODUCCI\IeC {\'O}N}{2}{section.1}
 \contentsline {section}{\numberline {\textup {2}}ALLAN VARIANCE}{3}{section.2}
 \contentsline {subsection}{\numberline {\textup {\textup {2}.1}}REPRESENTACI\IeC {\'O}N DE T\IeC {\'E}RMINOS DE RUIDOS EN ALLAN VARIANCE}{4}{subsection.2.1}
