@@ -8,8 +8,8 @@ slopes=zeros(N-1,1);
 for i=1:N-1
     slopes(i)=log10(AllanDesv(i+1)/AllanDesv(i))/log10(T(i+1)/T(i));
 end
-% m=[-1;-.5;0;.5;1];
-m=[-.5;0];
+m=[-1;-.5;0;.5;1];
+% m=[-.5;0];
 % m=[-1;-.5];
 Nm=length(m);
 closestSlopes=zeros(Nm,1);
