@@ -20,8 +20,8 @@ qreal0=qreal0/sqrt(qreal0'*qreal0);
 % Angle Random walk 
 % ARW=1*0.01;         % [deg/sqrt(h)]
 % ARW=2.9e-4*ARW;     % [rad/sqrt(s)]
-ARWSigma=1.8;           % [deg/sqrt(hs)] ESTE VALOR ES PARA EL RLG
-ARW=ARWSigma*(pi/180)/(60*sqrt(Tgyro)); % [rad/sqrt(s)]
+ARWSigma=1.8;           % [deg/sqrt(hs)]
+ARW=ARWSigma*(pi/180)/(60*sqrt(Tgyro)); 
 % Bias Stability over 8 hours
 % BS=1*0.01/2;        % [deg/h]
 % BS=4.848e-6*BS;     % [rad/s]
@@ -29,7 +29,7 @@ ARW=ARWSigma*(pi/180)/(60*sqrt(Tgyro)); % [rad/sqrt(s)]
 % RRW=0;              % [deg/(h)^3/2]
 % RRW=8e-8*RRW;       % [rad/s^(3/2)]
 RRWSigma=0;           % [deg/(hs*sqrt(hs))]
-RRW=RRWSigma*pi/(180*(3600^1.5));% [rad/(s*sqrt(s))]
+RRW=RRWSigma*(pi/180)*sqrt(Tgyro)/(Tgyro*(3600^1.5));
 % Bias instability
 BISigma=0;                 % [deg/hs]
 % Readout Noise
@@ -47,7 +47,7 @@ e=[0;0;0];          % [ppm]
 %
 % sss=1*10;           % [arcsec]
 % sss=4.87e-6*sss;    % [rad]
-sss=0.01*pi/180;      % [rad] INCISO b
+sss=0.01*pi/180;      % [rad] 
 sstar=[sss; sss; sss];
 
 % Standard deviations used in matrix Q and R
@@ -77,13 +77,15 @@ Misalig=[
 %% Matrices Q y R
 C_bl_GYRO=eye(3);
 C_bl_GYRO_aux=[C_bl_GYRO,zeros(3,3);zeros(3,3),C_bl_GYRO];
-RRW_aux=.5*120;      % [deg/(hs*sqrt(hs))]
-RRW_aux=RRW_aux*pi/(180*(3600^1.5));% [rad/(s*sqrt(s))]
-Q_coefs=[eye(3)*(ARW^2),zeros(3,3);zeros(3,3),eye(3)*(RRW_aux^2)];
+ARW_aux=.015;    % [deg/sqrt(hs)]
+ARW_aux=ARW_aux*(pi/180)/(60*sqrt(Tgyro)); 
+RRW_aux=.5;      % [deg/(hs*sqrt(hs))]
+RRW_aux=RRW_aux*(pi/180)*sqrt(Tgyro)/(Tgyro*(3600^1.5));
+Q_coefs=[eye(3)*(ARW_aux^2),zeros(3,3);zeros(3,3),eye(3)*(RRW_aux^2)];
 Q=C_bl_GYRO_aux*Q_coefs*(C_bl_GYRO_aux');
 
 C_bl_STR=eye(3);
-RMS_ST=sss;
-R=(1/4)*C_bl_STR*(eye(3)*(RMS_ST^2))*(C_bl_STR');
+RMS_ST=0.01*pi/180; 
+R=1*(1/4)*C_bl_STR*(eye(3)*(RMS_ST^2))*(C_bl_STR');
 % Q 
 % q
