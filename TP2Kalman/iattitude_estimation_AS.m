@@ -1,47 +1,49 @@
 % Initialization for attitude_estimatiom.mdl
 clear
 
-% Sampling times
+%% Sampling times
 %
 % Sampling time of star tracker and update equations
 T=1;  % [s]
 % Sampling time of gyro and propagation equations [s]
 Tgyro=.1;  % [s]
 
-% Initial conditions
+%% Initial conditions
 %
 % true quaternion
 qreal0=[0; 0; 0; 1];
 qreal0=qreal0/sqrt(qreal0'*qreal0);
 
-% Parametres of Honeywell's IRU
+%% Gyro 
+%Parametres of Honeywell's IRU
 %
 % Angle Random walk 
 % ARW=1*0.01;         % [deg/sqrt(h)]
 % ARW=2.9e-4*ARW;     % [rad/sqrt(s)]
-ARWSigma=.015;           % [deg/sqrt(hs)]
+ARWSigma=1.8;           % [deg/sqrt(hs)] ESTE VALOR ES PARA EL RLG
 ARW=ARWSigma*(pi/180)/(60*sqrt(Tgyro)); % [rad/sqrt(s)]
 % Bias Stability over 8 hours
-BS=1*0.01/2;        % [deg/h]
-BS=4.848e-6*BS;     % [rad/s]
+% BS=1*0.01/2;        % [deg/h]
+% BS=4.848e-6*BS;     % [rad/s]
 % Rate Random Walk 
 % RRW=0;              % [deg/(h)^3/2]
 % RRW=8e-8*RRW;       % [rad/s^(3/2)]
-RRWSigma=.1;           % [deg/(hs*sqrt(hs))]
+RRWSigma=0;           % [deg/(hs*sqrt(hs))]
+RRW=RRWSigma*pi/(180*(3600^1.5));% [rad/(s*sqrt(s))]
 % Bias instability
 BISigma=0;                 % [deg/hs]
 % Readout Noise
 Rdout=0.8e-6;       % [rad]
 % constant bias (modelo del gyro)
-bias_cte=0.1*[1;1;1]; % [arcsec/s = deg/h]
-bias_cte=4.848e-6*bias_cte; % [rad/s]
+bias_cte=.015/3600*[1;1;1]; % [deg/s] ESTE VALOR ES PARA EL MEMS
+bias_cte=bias_cte*pi/180;
 % Scale factor 
 So=1.164352e6;      % [counts/revolution]
-So=So/(2*pi);   % [counts/rad]
+So=So/(2*pi);       % [counts/rad]
 % Scale factor error
 e=[0;0;0];          % [ppm]
 
-% Star tracker noise
+%% Star tracker noise
 %
 % sss=1*10;           % [arcsec]
 % sss=4.87e-6*sss;    % [rad]
@@ -72,3 +74,16 @@ Misalig=[
     eje(1)*eje(2)*(1-cos(ang))-eje(3)*sin(ang)  cos(ang)+eje(2)^2*(1-cos(ang))              eje(2)*eje(3)*(1-cos(ang))+eje(1)*sin(ang)
     eje(1)*eje(3)*(1-cos(ang))+eje(2)*sin(ang)  eje(2)*eje(3)*(1-cos(ang))-eje(1)*sin(ang)  cos(ang)+eje(3)^2*(1-cos(ang))
 ];
+%% Matrices Q y R
+C_bl_GYRO=eye(3);
+C_bl_GYRO_aux=[C_bl_GYRO,zeros(3,3);zeros(3,3),C_bl_GYRO];
+RRW_aux=.5*120;      % [deg/(hs*sqrt(hs))]
+RRW_aux=RRW_aux*pi/(180*(3600^1.5));% [rad/(s*sqrt(s))]
+Q_coefs=[eye(3)*(ARW^2),zeros(3,3);zeros(3,3),eye(3)*(RRW_aux^2)];
+Q=C_bl_GYRO_aux*Q_coefs*(C_bl_GYRO_aux');
+
+C_bl_STR=eye(3);
+RMS_ST=sss;
+R=(1/4)*C_bl_STR*(eye(3)*(RMS_ST^2))*(C_bl_STR');
+% Q 
+% q
