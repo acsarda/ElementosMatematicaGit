@@ -1,5 +1,5 @@
 Model {
-  Name			  "attitude_estimation_AS_V3"
+  Name			  "attitude_estimation_AS_V4"
   Version		  8.9
   SavedCharacterEncoding  "UTF-8"
   GraphicalInterface {
@@ -103,7 +103,7 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "root"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Nov 26 18:15:11 2019"
+  LastModifiedDate	  "Tue Nov 26 18:15:47 2019"
   RTWModifiedTimeStamp	  496692671
   ModelVersionFormat	  "1.%<AutoIncrement:248>"
   ConfigurationManager	  "none"
@@ -157,11 +157,11 @@ Model {
     $PropName		    "DataLoggingOverride"
     $ObjectID		    7
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
-    model_		    "attitude_estimation_AS_V3"
+    model_		    "attitude_estimation_AS_V4"
     Array {
       Type		      "Cell"
       Dimension		      1
-      Cell		      "attitude_estimation_AS_V3"
+      Cell		      "attitude_estimation_AS_V4"
       PropName		      "logAsSpecifiedByModels_"
     }
     Array {
@@ -1217,9 +1217,9 @@ Model {
     }
   }
   System {
-    Name		    "attitude_estimation_AS_V3"
+    Name		    "attitude_estimation_AS_V4"
     Location		    [1920, 27, 3785, 1080]
-    Open		    on
+    Open		    off
     PortBlocksUseCompactNotation off
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200

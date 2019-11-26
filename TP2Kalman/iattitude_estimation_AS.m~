@@ -3,7 +3,7 @@ clear
 %% Sampling times
 %
 % Sampling time of star tracker and update equations
-T=30;  % [s]
+T=1;  % [s]
 % Sampling time of gyro and propagation equations [s]
 Tgyro=.1;  % [s]
 
@@ -83,9 +83,9 @@ ARW_aux=ARW_aux*(pi/180)/sqrt(3600);  % [rad/sqrt(s)]
 RRW_aux=1;          % [deg/(hs*sqrt(hs))]
 RRW_aux=8e-8*RRW_aux;    % [rad/s^(3/2)]
 Q_coefs=[eye(3)*(ARW_aux^2),zeros(3,3);zeros(3,3),eye(3)*(RRW_aux^2)];
-Q=1*C_bl_GYRO_aux*Q_coefs*(C_bl_GYRO_aux');
+Q=C_bl_GYRO_aux*Q_coefs*(C_bl_GYRO_aux');
 
 C_bl_STR=eye(3);
-R=1*(1/4)*C_bl_STR*(eye(3)*(sss^2))*(C_bl_STR');
+R=10*100*(1/4)*C_bl_STR*(eye(3)*(sss^2))*(C_bl_STR');
 % Q 
 % q
