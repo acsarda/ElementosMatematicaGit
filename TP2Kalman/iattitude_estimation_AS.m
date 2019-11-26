@@ -1,6 +1,5 @@
 % Initialization for attitude_estimatiom.mdl
 clear
-
 %% Sampling times
 %
 % Sampling time of star tracker and update equations
@@ -20,7 +19,7 @@ qreal0=qreal0/sqrt(qreal0'*qreal0);
 % Angle Random walk 
 % ARW=1*0.01;         % [deg/sqrt(h)]
 % ARW=2.9e-4*ARW;     % [rad/sqrt(s)]
-ARWSigma=1.8;           % [deg/sqrt(hs)]
+ARWSigma=.015;           % [deg/sqrt(hs)]
 ARW=ARWSigma*(pi/180)/(60*sqrt(Tgyro)); 
 % Bias Stability over 8 hours
 % BS=1*0.01/2;        % [deg/h]
@@ -35,8 +34,9 @@ BISigma=0;                 % [deg/hs]
 % Readout Noise
 Rdout=0.8e-6;       % [rad]
 % constant bias (modelo del gyro)
-bias_cte=.015/3600*[1;1;1]; % [deg/s] ESTE VALOR ES PARA EL MEMS
-bias_cte=bias_cte*pi/180;
+bias_cte=.1*[1;1;1]; % [deg/s] 
+% bias_cte=bias_cte*pi/180;
+bias_cte=4.848e-6*bias_cte;
 % Scale factor 
 So=1.164352e6;      % [counts/revolution]
 So=So/(2*pi);       % [counts/rad]
@@ -79,13 +79,13 @@ C_bl_GYRO=eye(3);
 C_bl_GYRO_aux=[C_bl_GYRO,zeros(3,3);zeros(3,3),C_bl_GYRO];
 ARW_aux=.015;    % [deg/sqrt(hs)]
 ARW_aux=ARW_aux*(pi/180)/(60*sqrt(Tgyro)); 
-RRW_aux=.5;      % [deg/(hs*sqrt(hs))]
+RRW_aux=.1;      % [deg/(hs*sqrt(hs))]
 RRW_aux=RRW_aux*(pi/180)*sqrt(Tgyro)/(Tgyro*(3600^1.5));
 Q_coefs=[eye(3)*(ARW_aux^2),zeros(3,3);zeros(3,3),eye(3)*(RRW_aux^2)];
 Q=C_bl_GYRO_aux*Q_coefs*(C_bl_GYRO_aux');
 
 C_bl_STR=eye(3);
 RMS_ST=0.01*pi/180; 
-R=1*(1/4)*C_bl_STR*(eye(3)*(RMS_ST^2))*(C_bl_STR');
+R=100*(1/4)*C_bl_STR*(eye(3)*(RMS_ST^2))*(C_bl_STR');
 % Q 
 % q
