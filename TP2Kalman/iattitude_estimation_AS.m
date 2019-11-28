@@ -3,7 +3,7 @@ clear
 %% Sampling times
 %
 % Sampling time of star tracker and update equations
-T=30;  % [s]
+T=1;  % [s]
 % Sampling time of gyro and propagation equations [s]
 Tgyro=.1;  % [s]
 
@@ -19,7 +19,7 @@ qreal0=qreal0/sqrt(qreal0'*qreal0);
 % Angle Random walk 
 % ARW=1*0.01;         % [deg/sqrt(h)]
 % ARW=2.9e-4*ARW;     % [rad/sqrt(s)]
-ARWSigma=.015;        % [deg/sqrt(hs)]
+ARWSigma=1.8;        % [deg/sqrt(hs)]
 ARW=ARWSigma*(pi/180)/sqrt(3600);  % [rad/sqrt(s)]
 % ARW=ARWSigma*(pi/180)/(60*sqrt(Tgyro)); 
 % Bias Stability over 8 hours
@@ -32,7 +32,8 @@ RRWSigma=1;          % [deg/(hs*sqrt(hs))]
 RRW=8e-8*RRWSigma;    % [rad/s^(3/2)]
 % RRW=RRWSigma*(pi/180)*sqrt(Tgyro)/(Tgyro*(3600^1.5));
 % Bias instability
-BISigma=0;                 % [deg/hs]
+BISigma=18;                 % [deg/hs]
+BI=pi/(3600*180);
 % Readout Noise
 Rdout=0.8e-6;       % [rad]
 % constant bias (modelo del gyro)
