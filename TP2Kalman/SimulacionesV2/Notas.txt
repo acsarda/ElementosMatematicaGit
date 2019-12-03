@@ -48,7 +48,23 @@ arw=.001/9 deg/sqrt(h)
 rrw=0.01 deg/h*sqrt(h)
 
 wreal simulink = 0
+*******************
+Simulacion 4
 
+modelo gyro RLG
+arw=1.8 deg/sqrt(h)
+rrw=0
+bi=0
+bias_cte=0.25deg/h
+
+modelo ST
+rms=0.01
+
+matriz Q
+arw=3 deg/sqrt(h)   
+rrw=10 deg/h*sqrt(h)
+
+wreal simulink = 0
 
 q
 Q
