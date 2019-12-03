@@ -1,0 +1,54 @@
+Simulacion 1:
+
+modelo gyro RLG
+arw=0.015 deg/sqrt(h)
+rrw=0
+bi=0
+bias_cte=0.04deg/h
+
+modelo ST
+rms=0.01
+
+matriz Q
+arw=.001 deg/sqrt(h)   
+rrw=0.01 deg/h*sqrt(h)
+
+wreal simulink = 0
+*********************
+Simulacion 2:
+
+modelo gyro RLG
+arw=0.015 deg/sqrt(h)
+rrw=0
+bi=0
+bias_cte=0.04deg/h
+
+modelo ST
+rms=0.01
+
+matriz Q
+arw=.009 deg/sqrt(h)   
+rrw=0.01 deg/h*sqrt(h)
+
+wreal simulink = 0
+*********************
+Simulacion 3:
+
+modelo gyro RLG
+arw=0.015 deg/sqrt(h)
+rrw=0
+bi=0
+bias_cte=0.04deg/h
+
+modelo ST
+rms=0.01
+
+matriz Q
+arw=.001/9 deg/sqrt(h)   
+rrw=0.01 deg/h*sqrt(h)
+
+wreal simulink = 0
+
+
+q
+Q

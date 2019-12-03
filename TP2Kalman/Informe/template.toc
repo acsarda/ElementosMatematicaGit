@@ -1,0 +1,7 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {\textup {1}}Simulaci\IeC {\'o}n 1}{2}{section.1}
+\contentsline {section}{\numberline {\textup {2}}Simulaci\IeC {\'o}n 2}{3}{section.2}
+\contentsline {section}{\numberline {\textup {3}}Simulaci\IeC {\'o}n 3}{6}{section.3}
+\contentsline {section}{\numberline {\textup {4}}Simulaci\IeC {\'o}n 4}{8}{section.4}
+\contentsline {section}{\numberline {\textup {5}}Simulaci\IeC {\'o}n 5}{10}{section.5}
+\contentsline {section}{\numberline {\textup {6}}REFERENCIAS}{14}{section.6}
