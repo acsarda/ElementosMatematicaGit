@@ -51,7 +51,7 @@ wreal simulink = 0
 *******************
 Simulacion 4
 
-modelo gyro RLG
+modelo gyro MEMS
 arw=1.8 deg/sqrt(h)
 rrw=0
 bi=0
@@ -65,6 +65,90 @@ arw=3 deg/sqrt(h)
 rrw=10 deg/h*sqrt(h)
 
 wreal simulink = 0
+*******************
+Simulacion 5
 
+modelo gyro RLG
+arw=.015 deg/sqrt(h)
+rrw=0.01
+bi=0
+bias_cte=0.04deg/h
+
+modelo ST
+rms=0.01
+
+matriz Q
+arw=.001 deg/sqrt(h)   
+rrw=.01 deg/h*sqrt(h)
+
+wreal simulink = 0
+*******************
+Simulacion 6
+
+modelo gyro RLG
+arw=.015 deg/sqrt(h)
+rrw=0.01
+bi=0.009
+bias_cte=0.04deg/h
+
+modelo ST
+rms=0.01
+
+matriz Q
+arw=.001 deg/sqrt(h)   
+rrw=.01 deg/h*sqrt(h)
+
+wreal simulink = 0
+*******************
+Simulacion 7
+
+modelo gyro MEMS
+arw=1.8 deg/sqrt(h)
+rrw=0.1
+bi=18
+bias_cte=0.25deg/h
+
+modelo ST
+rms=0.01
+
+matriz Q
+arw=3 deg/sqrt(h)   
+rrw=10 deg/h*sqrt(h)
+
+wreal simulink = 0
+*******************
+Simulacion 8
+
+modelo gyro RLG
+arw=.015 deg/sqrt(h)
+rrw=0
+bi=0
+bias_cte=0
+
+modelo ST
+rms=0.01
+
+matriz Q
+arw=.001 deg/sqrt(h)   
+rrw=.01 deg/h*sqrt(h)
+
+wreal simulink = 0
+*******************
+Simulacion 9
+
+modelo gyro MEMS
+arw=1.8 deg/sqrt(h)
+rrw=0
+bi=0
+bias_cte=0
+
+modelo ST
+rms=0.01
+
+matriz Q
+arw=3 deg/sqrt(h)   
+rrw=10 deg/h*sqrt(h)
+
+wreal simulink = 0
 q
 Q

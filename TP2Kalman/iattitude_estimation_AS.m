@@ -19,7 +19,7 @@ qreal0=qreal0/sqrt(qreal0'*qreal0);
 % Angle Random walk 
 % ARW=1*0.01;         % [deg/sqrt(h)]
 % ARW=2.9e-4*ARW;     % [rad/sqrt(s)]
-ARWSigma=.015;        % [deg/sqrt(hs)]
+ARWSigma=1.8;        % [deg/sqrt(hs)]
 ARW=ARWSigma*(pi/180)/sqrt(3600);  % [rad/sqrt(s)]
 % ARW=ARWSigma*(pi/180)/(60*sqrt(Tgyro)); 
 % Bias Stability over 8 hours
@@ -28,7 +28,7 @@ ARW=ARWSigma*(pi/180)/sqrt(3600);  % [rad/sqrt(s)]
 % Rate Random Walk 
 % RRW=0;              % [deg/(h)^3/2]
 % RRW=8e-8*RRW;       % [rad/s^(3/2)]
-RRWSigma=.01;          % [deg/(hs*sqrt(hs))]
+RRWSigma=0;          % [deg/(hs*sqrt(hs))]
 RRW=8e-8*RRWSigma;    % [rad/s^(3/2)]
 % RRW=RRWSigma*(pi/180)*sqrt(Tgyro)/(Tgyro*(3600^1.5));
 % Bias instability
@@ -37,7 +37,7 @@ BI=pi/(3600*180);
 % Readout Noise
 Rdout=0.8e-6;       % [rad]
 % constant bias (modelo del gyro)
-bias_cte=.04*[1;1;1]; % [arcsec/s = deg/h]
+bias_cte=0*[1;1;1]; % [arcsec/s = deg/h]
 bias_cte=bias_cte*(pi/(180*3600)); % [rad/s]
 % Scale factor 
 So=1.164352e6;      % [counts/revolution]
@@ -68,7 +68,8 @@ best0=0;
 
 % gyro misallignment
 %
-ang=0*50e-6;          % [rad]
+ang=0;                   % [deg]
+ang=ang*pi/180;          % [rad]
 eje=[1;1;1];        % eje de rotacion
 eje=eje/sqrt(eje'*eje);
 Misalig=[
@@ -79,9 +80,9 @@ Misalig=[
 %% Matrices Q y R
 C_bl_GYRO=eye(3);
 C_bl_GYRO_aux=[C_bl_GYRO,zeros(3,3);zeros(3,3),C_bl_GYRO];
-ARW_aux=.001;        % [deg/sqrt(hs)]
+ARW_aux=3;        % [deg/sqrt(hs)]
 ARW_aux=ARW_aux*(pi/180)/sqrt(3600);  % [rad/sqrt(s)]
-RRW_aux=.01;          % [deg/(hs*sqrt(hs))]
+RRW_aux=10;          % [deg/(hs*sqrt(hs))]
 RRW_aux=8e-8*RRW_aux;    % [rad/s^(3/2)]
 Q_coefs=[eye(3)*(ARW_aux^2),zeros(3,3);zeros(3,3),eye(3)*(RRW_aux^2)];
 Q=1*C_bl_GYRO_aux*Q_coefs*(C_bl_GYRO_aux');

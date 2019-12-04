@@ -1,17 +1,9 @@
 \begin{thebibliography}{1}
 
-\bibitem{paperNaser}
-Naser El-Sheimy, Haiying Hou, Xiaoji Niu, 2008,
-\newblock ``{Analysis and Modeling of Intertial Sensors Using Allan Variance}''.\\
+\bibitem{apuntes}
+Apuntes de clase, 2019,
+\newblock ``{Descripción de fitlro de Kalman de Actitud}''.\\
 \newblock {}
 
-\bibitem{paperIEEE}
-IEEE, std 952-1997,2003
-\newblock ``{IEEE Standard Specification Format Guide and Test Procedure for Single-Axis Interferometric Fiber Optic Gyros}''.\\
-\newblock {}
 
-\bibitem{JuanJurado}
-Juan Jurado, 2019
-\newblock``{Tools for Inertial Allan Variance Analysis and Simulation}''.
-\\ \newblock{https://www.mathworks.com/matlabcentral/fileexchange/61777-tools-for-inertial-allan-variance-analysis-and-simulation}
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.6.3)  2 DEC 2019 23:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.6.3)  4 DEC 2019 01:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1358,30 +1358,42 @@ Package babel Info: Redefining spanish shorthand "?
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 No file template.nls.
-LaTeX Font Info:    Try loading font information for U+msa on input line 58.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 57.
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 58.
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 63.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 63.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 63.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 63.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 63.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 63.
 
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion1/KalmanQuaterion.png, id=42, 1445.4pt x 722.7pt>
+SimulacionesV2/Simulacion1/KalmanQuaterion.png, id=78, 1445.4pt x 722.7pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
 lman/SimulacionesV2/Simulacion1/KalmanQuaterion.png Graphic file (type png)
 
@@ -1389,16 +1401,16 @@ lman/SimulacionesV2/Simulacion1/KalmanQuaterion.png Graphic file (type png)
 man/SimulacionesV2/Simulacion1/KalmanQuaterion.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
 MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion1/KalmanQuaterion.png used on 
-input line 82.
+input line 84.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 82--83
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 84--85
  [][] 
  []
 
 
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion1/KalmanBias.png, id=43, 1445.4pt x 722.7pt>
+SimulacionesV2/Simulacion1/KalmanBias.png, id=79, 1445.4pt x 722.7pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
 lman/SimulacionesV2/Simulacion1/KalmanBias.png Graphic file (type png)
 
@@ -1406,16 +1418,16 @@ lman/SimulacionesV2/Simulacion1/KalmanBias.png Graphic file (type png)
 man/SimulacionesV2/Simulacion1/KalmanBias.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
 MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion1/KalmanBias.png used on input
- line 88.
+ line 90.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 88--89
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
 
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion1/biasEstimado.png, id=44, 1445.4pt x 722.7pt>
+SimulacionesV2/Simulacion1/biasEstimado.png, id=80, 1445.4pt x 722.7pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
 lman/SimulacionesV2/Simulacion1/biasEstimado.png Graphic file (type png)
 
@@ -1423,16 +1435,16 @@ lman/SimulacionesV2/Simulacion1/biasEstimado.png Graphic file (type png)
 man/SimulacionesV2/Simulacion1/biasEstimado.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
 MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion1/biasEstimado.png used on inp
-ut line 94.
+ut line 96.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 94--95
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 96--97
  [][] 
  []
 
 
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion1/biasEstimadoRMSErrores.png, id=45, 1445.4pt x 722.7p
+SimulacionesV2/Simulacion1/biasEstimadoRMSErrores.png, id=81, 1445.4pt x 722.7p
 t>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
 lman/SimulacionesV2/Simulacion1/biasEstimadoRMSErrores.png Graphic file (type p
@@ -1442,16 +1454,16 @@ ng)
 man/SimulacionesV2/Simulacion1/biasEstimadoRMSErrores.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
 MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion1/biasEstimadoRMSErrores.png u
-sed on input line 100.
+sed on input line 102.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 100--101
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 102--103
  [][] 
  []
 
 
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion1/erroresQuaterniones.png, id=46, 1445.4pt x 722.7pt>
+SimulacionesV2/Simulacion1/erroresQuaterniones.png, id=82, 1445.4pt x 722.7pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
 lman/SimulacionesV2/Simulacion1/erroresQuaterniones.png Graphic file (type png)
 
@@ -1460,42 +1472,12 @@ lman/SimulacionesV2/Simulacion1/erroresQuaterniones.png Graphic file (type png)
 man/SimulacionesV2/Simulacion1/erroresQuaterniones.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
 MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion1/erroresQuaterniones.png used
- on input line 106.
+ on input line 108.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 106--107
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 108--109
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 110.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 110.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 110.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 110.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 110.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 110.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1540,8 +1522,76 @@ Package babel Info: Redefining spanish shorthand "?
 [2
 
 ]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 112.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 112.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 112.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 112.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 112.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 112.
+
+Underfull \vbox (badness 2772) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 114.
+[3 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
+an/SimulacionesV2/Simulacion1/KalmanQuaterion.png (PNG copy)> </home/pelotari/D
+ocuments/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Si
+mulacion1/KalmanBias.png (PNG copy)>]
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion2/KalmanQuaterion.png, id=75, 1445.4pt x 722.7pt>
+SimulacionesV2/Simulacion2/KalmanQuaterion.png, id=114, 1445.4pt x 722.7pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
 lman/SimulacionesV2/Simulacion2/KalmanQuaterion.png Graphic file (type png)
 
@@ -1549,16 +1599,16 @@ lman/SimulacionesV2/Simulacion2/KalmanQuaterion.png Graphic file (type png)
 man/SimulacionesV2/Simulacion2/KalmanQuaterion.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
 MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion2/KalmanQuaterion.png used on 
-input line 118.
+input line 120.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 118--119
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 120--121
  [][] 
  []
 
 
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion2/KalmanBias.png, id=76, 1445.4pt x 722.7pt>
+SimulacionesV2/Simulacion2/KalmanBias.png, id=115, 1445.4pt x 722.7pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
 lman/SimulacionesV2/Simulacion2/KalmanBias.png Graphic file (type png)
 
@@ -1566,16 +1616,16 @@ lman/SimulacionesV2/Simulacion2/KalmanBias.png Graphic file (type png)
 man/SimulacionesV2/Simulacion2/KalmanBias.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
 MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion2/KalmanBias.png used on input
- line 124.
+ line 126.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 124--125
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 126--127
  [][] 
  []
 
 
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion2/biasEstimado.png, id=77, 1445.4pt x 722.7pt>
+SimulacionesV2/Simulacion2/biasEstimado.png, id=116, 1445.4pt x 722.7pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
 lman/SimulacionesV2/Simulacion2/biasEstimado.png Graphic file (type png)
 
@@ -1583,17 +1633,17 @@ lman/SimulacionesV2/Simulacion2/biasEstimado.png Graphic file (type png)
 man/SimulacionesV2/Simulacion2/biasEstimado.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
 MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion2/biasEstimado.png used on inp
-ut line 130.
+ut line 132.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 130--131
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 132--133
  [][] 
  []
 
 
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion2/biasEstimadoRMSErrores.png, id=78, 1445.4pt x 722.7p
-t>
+SimulacionesV2/Simulacion2/biasEstimadoRMSErrores.png, id=117, 1445.4pt x 722.7
+pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
 lman/SimulacionesV2/Simulacion2/biasEstimadoRMSErrores.png Graphic file (type p
 ng)
@@ -1602,16 +1652,16 @@ ng)
 man/SimulacionesV2/Simulacion2/biasEstimadoRMSErrores.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
 MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion2/biasEstimadoRMSErrores.png u
-sed on input line 136.
+sed on input line 138.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 136--137
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
 
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion2/erroresQuaterniones.png, id=79, 1445.4pt x 722.7pt>
+SimulacionesV2/Simulacion2/erroresQuaterniones.png, id=118, 1445.4pt x 722.7pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
 lman/SimulacionesV2/Simulacion2/erroresQuaterniones.png Graphic file (type png)
 
@@ -1620,10 +1670,10 @@ lman/SimulacionesV2/Simulacion2/erroresQuaterniones.png Graphic file (type png)
 man/SimulacionesV2/Simulacion2/erroresQuaterniones.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
 MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion2/erroresQuaterniones.png used
- on input line 142.
+ on input line 144.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 142--143
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 144--145
  [][] 
  []
 
@@ -1644,33 +1694,355 @@ Package Fancyhdr Warning: \headheight is too small (56.9055pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 146.
-[3 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
-an/SimulacionesV2/Simulacion1/KalmanQuaterion.png (PNG copy)> </home/pelotari/D
+(babel)             in language  on input line 148.
+[4 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
+an/SimulacionesV2/Simulacion1/biasEstimado.png (PNG copy)> </home/pelotari/Docu
+ments/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Simul
+acion1/biasEstimadoRMSErrores.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 148.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 148.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 148.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 148.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 148.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 148.
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion3/KalmanQuaterion.png, id=129, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion3/KalmanQuaterion.png Graphic file (type png)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion3/KalmanQuaterion.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion3/KalmanQuaterion.png used on 
+input line 156.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 156--157
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion3/KalmanBias.png, id=130, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion3/KalmanBias.png Graphic file (type png)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion3/KalmanBias.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion3/KalmanBias.png used on input
+ line 162.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 162--163
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion3/biasEstimado.png, id=131, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion3/biasEstimado.png Graphic file (type png)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion3/biasEstimado.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion3/biasEstimado.png used on inp
+ut line 168.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 168--169
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion3/biasEstimadoRMSErrores.png, id=132, 1445.4pt x 722.7
+pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion3/biasEstimadoRMSErrores.png Graphic file (type p
+ng)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion3/biasEstimadoRMSErrores.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion3/biasEstimadoRMSErrores.png u
+sed on input line 174.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 174--175
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion3/erroresQuaterniones.png, id=133, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion3/erroresQuaterniones.png Graphic file (type png)
+
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion3/erroresQuaterniones.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion3/erroresQuaterniones.png used
+ on input line 180.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 180--181
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 184.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 184.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 184.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 184.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 184.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 184.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 201.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 201.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 201.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 201.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 201.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 201.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 201.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 201.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 201.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 201.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 201.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 201.
+[5 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
+an/SimulacionesV2/Simulacion1/erroresQuaterniones.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion4/KalmanQuaterion.png, id=150, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion4/KalmanQuaterion.png Graphic file (type png)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion4/KalmanQuaterion.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion4/KalmanQuaterion.png used on 
+input line 205.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 205--206
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion4/KalmanBias.png, id=151, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion4/KalmanBias.png Graphic file (type png)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion4/KalmanBias.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion4/KalmanBias.png used on input
+ line 211.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 211--212
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion4/biasEstimado.png, id=152, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion4/biasEstimado.png Graphic file (type png)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion4/biasEstimado.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion4/biasEstimado.png used on inp
+ut line 217.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 217--218
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion4/biasEstimadoRMSErrores.png, id=153, 1445.4pt x 722.7
+pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion4/biasEstimadoRMSErrores.png Graphic file (type p
+ng)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion4/biasEstimadoRMSErrores.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion4/biasEstimadoRMSErrores.png u
+sed on input line 223.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 223--224
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion4/erroresQuaterniones.png, id=154, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion4/erroresQuaterniones.png Graphic file (type png)
+
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion4/erroresQuaterniones.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion4/erroresQuaterniones.png used
+ on input line 229.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 229--230
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 233.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 233.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 233.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 233.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 233.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 233.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 233.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 233.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 233.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 233.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 233.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 233.
+[6 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
+an/SimulacionesV2/Simulacion2/KalmanQuaterion.png (PNG copy)> </home/pelotari/D
 ocuments/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Si
-mulacion1/KalmanBias.png (PNG copy)>]
+mulacion2/KalmanBias.png (PNG copy)>]
 Underfull \vbox (badness 2035) has occurred while \output is active []
 
 
@@ -1690,508 +2062,934 @@ Package Fancyhdr Warning: \headheight is too small (56.9055pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 146.
-[4 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
-an/SimulacionesV2/Simulacion1/biasEstimado.png (PNG copy)> </home/pelotari/Docu
-ments/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Simul
-acion1/biasEstimadoRMSErrores.png (PNG copy)>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 146.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 146.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 146.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 146.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 146.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 146.
-
-</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion3/KalmanQuaterion.png, id=95, 1445.4pt x 722.7pt>
-File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
-lman/SimulacionesV2/Simulacion3/KalmanQuaterion.png Graphic file (type png)
-
-<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion3/KalmanQuaterion.png>
-Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
-MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion3/KalmanQuaterion.png used on 
-input line 154.
-(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
-
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 154--155
- [][] 
- []
-
-
-</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion3/KalmanBias.png, id=96, 1445.4pt x 722.7pt>
-File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
-lman/SimulacionesV2/Simulacion3/KalmanBias.png Graphic file (type png)
-
-<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion3/KalmanBias.png>
-Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
-MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion3/KalmanBias.png used on input
- line 160.
-(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
-
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 160--161
- [][] 
- []
-
-
-</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion3/biasEstimado.png, id=97, 1445.4pt x 722.7pt>
-File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
-lman/SimulacionesV2/Simulacion3/biasEstimado.png Graphic file (type png)
-
-<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion3/biasEstimado.png>
-Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
-MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion3/biasEstimado.png used on inp
-ut line 166.
-(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
-
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 166--167
- [][] 
- []
-
-
-</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion3/biasEstimadoRMSErrores.png, id=98, 1445.4pt x 722.7p
-t>
-File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
-lman/SimulacionesV2/Simulacion3/biasEstimadoRMSErrores.png Graphic file (type p
-ng)
-
-<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion3/biasEstimadoRMSErrores.png>
-Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
-MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion3/biasEstimadoRMSErrores.png u
-sed on input line 172.
-(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
-
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 172--173
- [][] 
- []
-
-
-</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion3/erroresQuaterniones.png, id=99, 1445.4pt x 722.7pt>
-File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
-lman/SimulacionesV2/Simulacion3/erroresQuaterniones.png Graphic file (type png)
-
-
-<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion3/erroresQuaterniones.png>
-Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
-MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion3/erroresQuaterniones.png used
- on input line 178.
-(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
-
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 178--179
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
- Make it at least 66.04962pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 182.
-[5 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
-an/SimulacionesV2/Simulacion1/erroresQuaterniones.png (PNG copy)> </home/pelota
-ri/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV
-2/Simulacion2/KalmanQuaterion.png (PNG copy)>]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
- Make it at least 66.04962pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 182.
-[6 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
-an/SimulacionesV2/Simulacion2/KalmanBias.png (PNG copy)> </home/pelotari/Docume
-nts/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Simulac
-ion2/biasEstimado.png (PNG copy)>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 182.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 182.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
- Make it at least 66.04962pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 199.
+(babel)             in language  on input line 233.
 [7 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
-an/SimulacionesV2/Simulacion2/biasEstimadoRMSErrores.png (PNG copy)> </home/pel
-otari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/Simulacion
-esV2/Simulacion2/erroresQuaterniones.png (PNG copy)>]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
- Make it at least 66.04962pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 199.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 199.
-[8 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
-an/SimulacionesV2/Simulacion3/KalmanQuaterion.png (PNG copy)> </home/pelotari/D
-ocuments/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Si
-mulacion3/KalmanBias.png (PNG copy)>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
- Make it at least 66.04962pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 201.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 201.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 201.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 201.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 201.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 201.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 201.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 201.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 201.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 201.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 201.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 201.
-[9 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
-an/SimulacionesV2/Simulacion3/biasEstimado.png (PNG copy)> </home/pelotari/Docu
+an/SimulacionesV2/Simulacion2/biasEstimado.png (PNG copy)> </home/pelotari/Docu
 ments/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Simul
-acion3/biasEstimadoRMSErrores.png (PNG copy)>]
+acion2/biasEstimadoRMSErrores.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 233.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 235.
+[8 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
+an/SimulacionesV2/Simulacion2/erroresQuaterniones.png (PNG copy)> </home/pelota
+ri/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV
+2/Simulacion3/KalmanQuaterion.png (PNG copy)>]
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion4/KalmanQuaterion.png, id=145, 1445.4pt x 722.7pt>
+SimulacionesV2/Simulacion5/AllanVariance.png, id=184, 1445.4pt x 722.7pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
-lman/SimulacionesV2/Simulacion4/KalmanQuaterion.png Graphic file (type png)
+lman/SimulacionesV2/Simulacion5/AllanVariance.png Graphic file (type png)
 
 <use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion4/KalmanQuaterion.png>
+man/SimulacionesV2/Simulacion5/AllanVariance.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
-MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion4/KalmanQuaterion.png used on 
-input line 206.
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion5/AllanVariance.png used on in
+put line 254.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 206--207
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 254--255
  [][] 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion4/KalmanBias.png, id=146, 1445.4pt x 722.7pt>
+SimulacionesV2/Simulacion5/biasEstimado.png, id=185, 1445.4pt x 722.7pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
-lman/SimulacionesV2/Simulacion4/KalmanBias.png Graphic file (type png)
+lman/SimulacionesV2/Simulacion5/biasEstimado.png Graphic file (type png)
 
 <use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion4/KalmanBias.png>
+man/SimulacionesV2/Simulacion5/biasEstimado.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
-MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion4/KalmanBias.png used on input
- line 212.
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion5/biasEstimado.png used on inp
+ut line 260.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 212--213
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 260--261
  [][] 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion4/biasEstimado.png, id=147, 1445.4pt x 722.7pt>
-File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
-lman/SimulacionesV2/Simulacion4/biasEstimado.png Graphic file (type png)
-
-<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion4/biasEstimado.png>
-Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
-MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion4/biasEstimado.png used on inp
-ut line 218.
-(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
-
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 218--219
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion4/biasEstimadoRMSErrores.png, id=148, 1445.4pt x 722.7
+SimulacionesV2/Simulacion5/biasEstimadoRMSErrores.png, id=186, 1445.4pt x 722.7
 pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
-lman/SimulacionesV2/Simulacion4/biasEstimadoRMSErrores.png Graphic file (type p
+lman/SimulacionesV2/Simulacion5/biasEstimadoRMSErrores.png Graphic file (type p
 ng)
 
 <use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion4/biasEstimadoRMSErrores.png>
+man/SimulacionesV2/Simulacion5/biasEstimadoRMSErrores.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
-MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion4/biasEstimadoRMSErrores.png u
-sed on input line 224.
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion5/biasEstimadoRMSErrores.png u
+sed on input line 266.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 224--225
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 266--267
  [][] 
  []
 
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion5/erroresQuaterniones.png, id=187, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion5/erroresQuaterniones.png Graphic file (type png)
+
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion5/erroresQuaterniones.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion5/erroresQuaterniones.png used
+ on input line 272.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 272--273
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 276.
+[9 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalm
+an/SimulacionesV2/Simulacion3/KalmanBias.png (PNG copy)> </home/pelotari/Docume
+nts/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Simulac
+ion3/biasEstimado.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 276.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 276.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 292.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 292.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 292.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 292.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 292.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 292.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 292.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 292.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 292.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 292.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 292.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 292.
+[10 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion3/biasEstimadoRMSErrores.png (PNG copy)> </home/pe
+lotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/Simulacio
+nesV2/Simulacion3/erroresQuaterniones.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:Simulacion6/biasEstimado' on page 11 undefined on
+ input line 292.
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion6/AllanVariance.png, id=208, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion6/AllanVariance.png Graphic file (type png)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion6/AllanVariance.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion6/AllanVariance.png used on in
+put line 299.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 299--300
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion6/biasEstimadoRMSErrores.png, id=209, 1445.4pt x 722.7
+pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion6/biasEstimadoRMSErrores.png Graphic file (type p
+ng)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion6/biasEstimadoRMSErrores.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion6/biasEstimadoRMSErrores.png u
+sed on input line 305.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 305--306
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion6/erroresQuaterniones.png, id=210, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion6/erroresQuaterniones.png Graphic file (type png)
+
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion6/erroresQuaterniones.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion6/erroresQuaterniones.png used
+ on input line 311.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 311--312
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 315.
+[11 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion4/KalmanQuaterion.png (PNG copy)>]
+Underfull \vbox (badness 2035) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 315.
+[12 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion4/KalmanBias.png (PNG copy)> </home/pelotari/Docum
+ents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Simula
+cion4/biasEstimado.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 315.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 315.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 331.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 331.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 331.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 331.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 331.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 331.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 331.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 331.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 331.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 331.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 331.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 331.
+[13 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion4/biasEstimadoRMSErrores.png (PNG copy)> </home/pe
+lotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/Simulacio
+nesV2/Simulacion4/erroresQuaterniones.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
-SimulacionesV2/Simulacion4/erroresQuaterniones.png, id=149, 1445.4pt x 722.7pt>
+SimulacionesV2/Simulacion7/AllanVariance.png, id=239, 1445.4pt x 722.7pt>
 File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
-lman/SimulacionesV2/Simulacion4/erroresQuaterniones.png Graphic file (type png)
+lman/SimulacionesV2/Simulacion7/AllanVariance.png Graphic file (type png)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion7/AllanVariance.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion7/AllanVariance.png used on in
+put line 336.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 336--337
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion7/biasEstimado.png, id=240, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion7/biasEstimado.png Graphic file (type png)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion7/biasEstimado.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion7/biasEstimado.png used on inp
+ut line 342.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 342--343
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion7/biasEstimadoRMSErrores.png, id=241, 1445.4pt x 722.7
+pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion7/biasEstimadoRMSErrores.png Graphic file (type p
+ng)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion7/biasEstimadoRMSErrores.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion7/biasEstimadoRMSErrores.png u
+sed on input line 348.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 348--349
+ [][] 
+ []
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion7/erroresQuaterniones.png, id=242, 1445.4pt x 722.7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion7/erroresQuaterniones.png Graphic file (type png)
 
 
 <use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion4/erroresQuaterniones.png>
+man/SimulacionesV2/Simulacion7/erroresQuaterniones.png>
 Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
-MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion4/erroresQuaterniones.png used
- on input line 230.
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion7/erroresQuaterniones.png used
+ on input line 354.
 (pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 230--231
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 354--355
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 358.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 358.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 358.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 358.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 358.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 358.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 361.
+[14 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion5/AllanVariance.png (PNG copy)> </home/pelotari/Do
+cuments/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Sim
+ulacion5/biasEstimado.png (PNG copy)>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 361.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 361.
+[15 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion5/biasEstimadoRMSErrores.png (PNG copy)> </home/pe
+lotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/Simulacio
+nesV2/Simulacion5/erroresQuaterniones.png (PNG copy)>]
+Underfull \vbox (badness 1019) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 381.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 381.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 381.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 381.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 381.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 381.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 381.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 381.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 381.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 381.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 381.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 381.
+[16 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion6/AllanVariance.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion8/SuspensionActualizacion.png, id=268, 1445.4pt x 722.
+7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion8/SuspensionActualizacion.png Graphic file (type 
+png)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion8/SuspensionActualizacion.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion8/SuspensionActualizacion.png 
+used on input line 387.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 387--388
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 391.
+[17 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion6/biasEstimadoRMSErrores.png (PNG copy)> </home/pe
+lotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/Simulacio
+nesV2/Simulacion6/erroresQuaterniones.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 391.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 391.
+
+Underfull \vbox (badness 2035) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 408.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 408.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 408.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 408.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 408.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 408.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 408.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 408.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 408.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 408.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 408.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 408.
+[18 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion7/AllanVariance.png (PNG copy)> </home/pelotari/Do
+cuments/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Sim
+ulacion7/biasEstimado.png (PNG copy)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]\T1/cmr/m/n/10.95 Al
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+ Make it at least 66.04962pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 410.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 410.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 410.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 410.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 410.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 410.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 410.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 410.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 410.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 410.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 410.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 410.
+[19 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion7/biasEstimadoRMSErrores.png (PNG copy)> </home/pe
+lotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/Simulacio
+nesV2/Simulacion7/erroresQuaterniones.png (PNG copy)>]
+</home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/
+SimulacionesV2/Simulacion9/SuspensionActualizacion.png, id=289, 1445.4pt x 722.
+7pt>
+File: /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Ka
+lman/SimulacionesV2/Simulacion9/SuspensionActualizacion.png Graphic file (type 
+png)
+
+<use /home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion9/SuspensionActualizacion.png>
+Package pdftex.def Info: /home/pelotari/Documents/MaestriaIB/Materias/Elementos
+MatematicaGit/TP2Kalman/SimulacionesV2/Simulacion9/SuspensionActualizacion.png 
+used on input line 413.
+(pdftex.def)             Requested size: 512.1496pt x 256.06956pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 413--414
  [][] 
  []
 
@@ -2215,31 +3013,31 @@ Package Fancyhdr Warning: \headheight is too small (56.9055pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 236.
-[10 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion3/erroresQuaterniones.png (PNG copy)>]
+(babel)             in language  on input line 420.
+[20 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion8/SuspensionActualizacion.png (PNG copy)>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []\T1/cmr/m/n/10.95 Al
  []
@@ -2256,33 +3054,44 @@ Package Fancyhdr Warning: \headheight is too small (56.9055pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 420.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 236.
-[11 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion4/KalmanQuaterion.png (PNG copy)> </home/pelotari/
-Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/S
-imulacion4/KalmanBias.png (PNG copy)>]
+(babel)             in language  on input line 420.
+[21 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
+man/SimulacionesV2/Simulacion9/SuspensionActualizacion.png (PNG copy)>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 422.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 422.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 422.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 422.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 422.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 422.
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []\T1/cmr/m/n/10.95 Al
  []
@@ -2299,75 +3108,32 @@ Package Fancyhdr Warning: \headheight is too small (56.9055pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 236.
-[12 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion4/biasEstimado.png (PNG copy)> </home/pelotari/Doc
-uments/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kalman/SimulacionesV2/Simu
-lacion4/biasEstimadoRMSErrores.png (PNG copy)>]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
+(babel)             in language  on input line 433.
+[22
 
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]\T1/cmr/m/n/10.95 Al
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
- Make it at least 66.04962pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 236.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 236.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 236.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 236.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 236.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 236.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 236.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 236.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 236.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 236.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 236.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 236.
-[13 </home/pelotari/Documents/MaestriaIB/Materias/ElementosMatematicaGit/TP2Kal
-man/SimulacionesV2/Simulacion4/erroresQuaterniones.png (PNG copy)>]
-(./template.bbl
+] (./template.bbl
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand >>
@@ -2383,17 +3149,6 @@ Package babel Info: Redefining spanish shorthand "?
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
-\T1/cmr/m/n/10.95 https://www.mathworks.com/matlabcentral/fileexchange/61777-to
-ols-for-inertial-allan-variance-
  []
 
 ) 
@@ -2415,91 +3170,89 @@ Package Fancyhdr Warning: \headheight is too small (56.9055pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 240.
-[14
+(babel)             in language  on input line 437.
+[23
 
 ]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 437.
 \Changes@OutFile=\write7
 \openout7 = `template.soc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 437.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 437.
  (./template.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 437.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 437.
+Package rerunfilecheck Info: File `template.out' has not changed.
+(rerunfilecheck)             Checksum: 1182AF37E48B5D0158F1F7DECA3222D7;599.
 
 
-Package rerunfilecheck Warning: File `template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: 09D038808696C0B7DF305C0D387D57B1;246
-(rerunfilecheck)             After:  16060276ED72B83CF4ECC7CAEC6B2443;296.
  ) 
 Here is how much of TeX's memory you used:
- 18621 strings out of 493013
- 322178 string characters out of 6135683
- 412981 words of memory out of 5000000
- 21856 multiletter control sequences out of 15000+600000
+ 18738 strings out of 493013
+ 330770 string characters out of 6135683
+ 418604 words of memory out of 5000000
+ 21932 multiletter control sequences out of 15000+600000
  19250 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,77p,10499b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,16n,77p,10499b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb>
-Output written on template.pdf (14 pages, 1152662 bytes).
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+frm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfti0900.pfb>
+Output written on template.pdf (23 pages, 1880258 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 

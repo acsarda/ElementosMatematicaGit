@@ -1,7 +1,8 @@
 % clear;
 close all;
 
-path='SimulacionesV2/Simulacion5/';
+% path='SimulacionesV2/Simulacion8/';
+path='SimulacionesV2/Simulacion8/Simulacion1/';
 %%
 tBiasEst=load(strcat(path,'tBiasEst.mat'));
 biasEst1=load(strcat(path,'biasEst1.mat'));
@@ -32,7 +33,7 @@ grid on;
 xlabel('Tiempo [s]')
 ylabel('[rad/s]')
 
-bias_estimado(tBiasEst,biasEst1,biasEst2,biasEst3,2200,bias_cte);
+bias_estimado(tBiasEst,biasEst1,biasEst2,biasEst3,0,bias_cte);
 %%
 tQuatMed=load(strcat(path,'tQuatMed.mat'));
 
@@ -56,7 +57,7 @@ KalmanBias3=KalmanBias3.KalmanBias3;
 
 t=tQuatMed;
 % idx=find(t<=t(end));
-idx=find(t<5);
+idx=find(t<3);
 figure;
 subplot(3,1,1)
 plot(t(idx),KalmanQuaternion1(idx))
@@ -72,7 +73,7 @@ grid on;
 xlabel('Tiempo [s]')
 
 idx=find(t<=t(end));
-% idx=find(t<20000);
+% idx=find(t<4000);
 figure;
 subplot(3,1,1)
 plot(t(idx),KalmanBias1(idx))
